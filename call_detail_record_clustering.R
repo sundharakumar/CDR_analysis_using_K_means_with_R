@@ -2,8 +2,6 @@ library("ggplot2")
 library("reshape")
 library("gridExtra")
 
-# set the working directory
-# setwd("C:\\Users\\xxxx\\Desktop\\blogs\\kmeans_clustering")
 
 # function used to read the data input file and returns the dataframe
 fn.readCallDetailRecord <- function(inputFile){
